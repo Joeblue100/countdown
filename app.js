@@ -1,6 +1,6 @@
 
 //Set date we're counting down from
-const countDownDate = new Date("Apr 19, 2022 12:00:00");
+const countDownDate = new Date("Apr 20, 2022 12:00:00");
 console.log(countDownDate);
 
  
