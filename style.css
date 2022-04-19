@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+}
+
+.background{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.background img{
+    height: 600px;
+    width: 600px;
+}
+
+.background .centered{
+    top: 200;
+    transform: translate(0, -600%); 
+}
+
+
+@media(max-width:600px) {
+    .background,
+    .background .centered{
+        text-align: center;
+    }
+    .background img{
+        width: 100%;
+    }
+}
